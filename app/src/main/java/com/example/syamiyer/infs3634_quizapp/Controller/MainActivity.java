@@ -1,4 +1,4 @@
-package com.example.syamiyer.infs3634_quizapp.Controllers;
+package com.example.syamiyer.infs3634_quizapp.Controller;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
