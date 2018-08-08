@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">INFS3634-QuizApp</string>
+    <string name="q1">1+1 = 2</string>
+    <string name="q2">2+2 = 3</string>
+    <string name="q3">3+3 = 4</string>
+    <string name="q4">4+4 = 8</string>
+    <string name="q5">5+5 = 6</string>
+</resources>
