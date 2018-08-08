@@ -1,10 +1,13 @@
-package com.example.syamiyer.infs3634_quizapp;
+package com.example.syamiyer.infs3634_quizapp.Controllers;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.syamiyer.infs3634_quizapp.Model.Question;
+import com.example.syamiyer.infs3634_quizapp.R;
 
 import java.util.ArrayList;
 
@@ -51,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void clickedPrev(View view) {
+        feedback.setVisibility(View.INVISIBLE);
         if (currentIndex == 0) {
             currentIndex = questions.size()-1;
         } else {
